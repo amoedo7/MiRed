@@ -6,7 +6,7 @@
 
 [![CI](https://github.com/amoedo7/MiRed/actions/workflows/ci.yml/badge.svg)](https://github.com/amoedo7/MiRed/actions/workflows/ci.yml)
 
-`Android / Termux` · `Windows` · `macOS` · `Linux` · `Python 3` · `JSON`
+`Android / Termux` · `Windows` · `macOS` · `Linux` · `Python 3` · `JSON` · `HTML local`
 </div>
 
 ---
@@ -57,6 +57,15 @@ Modo sin pruebas externas, útil para CI o inventario local:
 ```bash
 python mired.py --no-probe
 ```
+
+## Dashboard local
+
+[`viewer.html`](viewer.html) abre el JSON en un panel visual con el estilo de DesarrollAMO. El archivo se procesa localmente en el navegador.
+
+1. generá `red.json`;
+2. abrí `viewer.html`;
+3. elegí el reporte;
+4. revisá score, DNS, TCP, HTTPS, gateway e IPs.
 
 ## Contrato
 
