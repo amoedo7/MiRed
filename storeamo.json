@@ -1,0 +1,13 @@
+{
+  "schema": "storeamo.app.v1",
+  "id": "mired",
+  "name": "MiRed",
+  "tagline": "Tu conexión, sin adivinar.",
+  "description": "Diagnóstico seguro de conectividad, DNS, TCP, HTTPS y red local básica.",
+  "category": "Diagnóstico",
+  "featured": false,
+  "status": "development",
+  "supported_platforms": ["android", "windows", "macos", "linux"],
+  "store": {"screenshots": []},
+  "verification": {"policy": "storeamo-default-v1", "required_checks": ["tests", "integrity"]}
+}
